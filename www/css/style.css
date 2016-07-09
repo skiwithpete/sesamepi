@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* 
+{	
+//	padding: 0; 
+//	margin: 0; 
+//	vertical-align: top; 
+}
+
+.classname {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #56ad10), color-stop(1, #306108) );
+	background:-moz-linear-gradient( center top, #56ad10 5%, #306108 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#56ad10', endColorstr='#306108');
+	background-color:#56ad10;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:6px solid #268a16;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:45px;
+	font-weight:bold;
+	font-style:normal;
+	height:320px;
+	line-height:65px;
+	width:350px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+}
+.classname:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #306108), color-stop(1, #56ad10) );
+	background:-moz-linear-gradient( center top, #306108 5%, #56ad10 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#306108', endColorstr='#56ad10');
+	background-color:#306108;
+}.classname:active {
+	position:relative;
+	top:1px;
+}
+
+.open {
+	background-color:transparent;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:6px solid #268a16;
+	display:inline-block;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:120px;
+	line-height:65px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+}
+
+.open:active {
+	position:relative;
+	top:1px;
+}
+#garageHolder
+  	{
+  		width:281px;
+  		height:250px;
+  		background:url(img/garage_image.jpg) no-repeat 0 -600px;
+  	}
+
+#garageHolder.open.left
+  	{
+  		background-position:-281px 0;
+  	}
+  	
+#garageHolder.open.right
+  	{
+  		background-position:0 0;
+  	}
